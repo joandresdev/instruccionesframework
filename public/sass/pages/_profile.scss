@@ -1,0 +1,50 @@
+ /**
+    * profile.scss
+    * @description: Estilos de la página de perfil
+**/
+
+.profile {
+    // font-family: $Heebo;
+
+    .container-img-profile{
+        position: relative;
+        width: 150px;
+        height: auto;
+        .img-profile{
+            position: absolute;
+            border-radius: 50%;
+            bottom: 10px;
+            left: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+    .container-info-student{
+        background: $formBackground;
+        width: 27%;
+        height: 84vh;
+    }
+    .content-info-gral{
+        .frm-info-gral{
+            padding-top: $paddingNormal;
+            .container-input-info-gral{
+                padding-top: $paddingMedium;
+            }
+            .btn{
+                margin-top: $marginSemi;
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}

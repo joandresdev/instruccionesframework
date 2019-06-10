@@ -1,0 +1,35 @@
+/**
+*   header.scss
+*   @description: Estilos para las cards
+*/
+
+.card-example {
+    height: 190px;
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 8px;
+    position: relative;
+    
+    .img-card {
+        height: 140px;
+        width: 100%;
+    }
+
+    .tittle {
+        padding: $paddingNormal 0;
+    }
+
+    .icon-star {
+        position: absolute;
+        color: white;
+        font-size: 2.5rem;
+        bottom: 24px;
+        right: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .card-example {
+        margin-bottom: $marginMedium;
+    }
+}

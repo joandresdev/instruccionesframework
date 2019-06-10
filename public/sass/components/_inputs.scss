@@ -1,0 +1,32 @@
+/**
+*   inputs.scss
+*   @description: Estilos para las entradas de texto y archivos
+*/
+
+input, textarea, select, option, label {
+    font-family: $Heebo;
+}
+
+.input {
+    font-size: $fontSmall;
+    font-family: $Heebo;
+    font-weight: $weightSemi;
+    outline: 1px solid transparent;
+    background-color: #EFEFEF;
+    padding: $paddingNormal $paddingMedium;
+}
+
+.input-profile {
+    width: 85%;
+    color: #8e8e8e;
+    margin-left: 14px;
+    border-bottom: .6px solid $darkGray;
+    background-color: white;
+    padding: 8px;
+    font-size: $fontMini;
+    transition: border-bottom .300s ease-in-out;
+}
+
+.input-profile:focus {
+    border-bottom: .6px solid $lightBlue;
+}

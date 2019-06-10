@@ -1,0 +1,18 @@
+/**
+*   buttons.scss
+*   @description: Estilos unicamente para botones
+*/
+
+button {
+    font-family: $Heebo;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: $Heebo;
+    padding: $paddingNormal $paddingMedium;
+    -webkit-tap-highlight-color: transparent;
+}
+
+

@@ -1,0 +1,53 @@
+/**
+*   colors.scss
+*   @description: Variables de colores
+*/
+
+
+$black:             #000000;
+$white:             #FFFFFF;
+$darkGray:          #848484;
+$lightGray:         #F6F6F6;
+$softGray:          #95A5A6;
+$darkBlue:          #2C54B3;
+$lightBlue:         #00B6BF;
+$background:        #F6F6F6;
+$formBackground:    #E5E5E5;
+
+
+$blue :  #3887ff;
+    
+.color-blue {
+    color: $blue;
+}
+/* Classes de colores */
+
+.color-white {
+    color: $white;
+}
+
+.color-black {
+    color: $black;
+}
+
+.color-darkBlue {
+    color: $darkBlue;
+}
+
+.color-lightBlue {
+    color: $lightBlue;
+}
+
+
+.color-lightgray {
+    color: $lightGray;
+}
+
+.color-darkgray {
+    color: $darkGray;
+}
+
+.color-softgray {
+    color: $softGray;
+}
+

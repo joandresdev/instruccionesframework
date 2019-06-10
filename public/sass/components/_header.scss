@@ -1,0 +1,12 @@
+/**
+*   header.scss
+*   @description: Estilos para los Headers
+*/
+
+.header-example {
+    background-color: $lightBlue;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+}

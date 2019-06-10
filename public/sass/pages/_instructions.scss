@@ -1,0 +1,209 @@
+.instructions {
+
+
+    #inicio {
+        background-color: $white;
+        min-height: 100vh;
+        
+        .notes {
+            background-color: rgb(0, 255, 128);
+            padding: 0 32px;
+        }
+        .frame {
+            padding-left: 16px;
+        }
+    }
+
+    #primerospasos {
+        height: 100vh;
+
+        .info {
+            padding: 0 $paddingLarge;
+        }
+
+        .link {
+            text-decoration: underline;
+        }
+        background-color: $blue;
+    }
+
+    #configuracion {
+        background-color: $white;
+        height: 100vh;
+
+        .frame {
+            padding-left: $paddingHuge;
+        }
+    }
+
+    #modelos {
+        height: 100vh;
+        background-color: $blue;
+
+        .hero {
+            width: 500px;
+            padding-right: 32px;
+        }
+
+        .info-text {
+            p { 
+                font-size: $fontSmall;
+                text-align: justify;
+                color: $white;
+            }
+            b{
+                color: $black;
+            }
+
+            code {
+                font-size: $fontMedium;
+                color: chartreuse;
+                font-weight: $weightSemi;
+            }
+        }
+
+    }
+
+    #post {
+        height: 100vh;
+        background-color: $blue;
+
+        .hero {
+          
+            padding-left: 32px;
+        }
+
+        form {
+            font-size: $fontMedium;
+        }
+
+        button {
+            padding: $paddingNormal;
+            background-color: white;
+            font-size: $fontMedium;
+            transition: background-color 300ms ease-in-out;
+            &:hover {
+                background-color: rgb(5, 253, 150);
+            }
+        }
+        .container-input {
+            padding-right: 24px;
+            &:nth-child(2) {
+                padding-right: 0;
+            }
+            input {
+                padding: $paddingNormal;
+            }
+        }
+
+        .info-text {
+            p { 
+                font-size: $fontSmall;
+                text-align: justify;
+                color: $white;
+            }
+            b{
+                color: $black;
+            }
+
+            code {
+                font-size: $fontMedium;
+                color: chartreuse;
+                font-weight: $weightSemi;
+            }
+        }
+
+    }
+
+    #views {
+        height: auto;
+        background-color: $white;
+
+        .hero {
+            width: 500px;
+            padding-right: 32px;
+        }
+
+        p { 
+            font-size: $fontSmall;
+            text-align: justify;
+        }
+        b{
+            color: $black;
+        }
+
+        code {
+            font-size: $fontMedium;
+            color: $blue;
+            font-weight: $weightSemi;
+        }
+    }
+
+    #controladores{
+        height: 100vh;
+        background-color: $lightGray;
+
+        .info-text {
+            p { 
+                font-size: $fontSmall;
+                text-align: justify;
+            }
+            b{
+                color: $blue;
+            }
+        }
+
+        .nota {
+            font-size: $fontMini;
+        }
+
+        .card{
+            background-color: white;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0px 1px 3px 0px grey;
+            width: 90%;        
+            
+            code {
+                font-size: $fontMedium;
+                color: $blue;
+                font-weight: $weightSemi;
+            }
+        }
+    }
+
+    
+    .main {
+        padding: $paddingNormal 0;
+        background-color: $black;
+        position: sticky;
+        top: 0;
+        
+        a {
+            padding: 0 $paddingMedium;
+            color: $white;
+            font-size: $fontSmall;
+            font-weight: $weightSemi;
+            cursor: pointer;
+            transition: color 300ms ease-in-out;
+            &:nth-child(1){
+                color: $blue;
+                font-size: $fontSmall;
+            font-weight: $weightSemi;
+                &:hover {
+                    color:white;
+                }
+            }
+
+            &:nth-child(7){
+                padding-right: 0;
+            }
+
+            &:hover {
+                color: $blue;
+            }
+
+            
+        }
+    }
+}
